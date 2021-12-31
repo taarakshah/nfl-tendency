@@ -1,0 +1,5 @@
+# ignore nfl big data bowl files
+nfl-big-data-bowl-2021/
+
+# ignore pbp 2010-2020 data
+nfl_pbp_2010-2020.csv
