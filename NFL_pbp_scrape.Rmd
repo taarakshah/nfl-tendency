@@ -1,0 +1,26 @@
+---
+title: "NFL pbp scrape"
+author: "Taarak Shah"
+date: "9/2/2021"
+output: pdf_document
+---
+
+This rmd file will scrape play by play data for the last decade, from 2010 to 2020 seasons.
+
+```{r}
+library(nflfastR)
+library(tidyverse)
+library(dplyr)
+library(ggimage)
+library(na.tools)
+```
+
+Get all pbp data from 2010-2020.
+
+```{r}
+decade <- nflfastR::load_pbp(2010:2020)
+```
+
+```{r}
+write.csv(decade, file='nfl_pbp_2010-2020.csv')
+```
