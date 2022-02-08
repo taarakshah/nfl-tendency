@@ -3,4 +3,4 @@ Tendency analysis framework for NFL play-by-play data. This project will serve a
 
 Goal is to predict run/pass for NFL Data Bowl data from 2020 and 2021. I want to see how offensive and defensive formations and personnel will impact the probability that the offense will call a run or pass play.
 
-Methods: logistic regression, random forest, gradient boosted trees (XGBoost), neural networks
+Methods: logistic regression, random forest, gradient boosted trees (XGBoost)
