@@ -6,3 +6,10 @@ nfl_pbp_2010-2020.csv
 
 # ignore jupyter checkpoints
 .ipynb_checkpoints/
+
+# ignore Literature
+Literature/
+
+# ignore images or animations
+*.mp4
+*.png
